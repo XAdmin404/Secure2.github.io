@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <h1 id="logo">{ Secure<span id="logo2">Pass </span>}</h1>
+    </nav>
+
+    <div id="main">
+        <div id="login-box">
+            <div id="box-content">
+            <h1>Login on { <span id="logo">Secure</span><span id="logo2">Pass</span> }</h1>
+            </div>
+            <div id="email">
+                <p>Email:</p>
+                <input id="email-input" type="email" name="myInput" placeholder="Enter your Email" size="30" required>
+            </div>
+            <div id="password">
+                <p>Password:</p>
+                <input id="password-input" type="password" name="myInput" placeholder="Enter your Password" size="20" required>
+            </div>
+            <div id="submit">
+                <p id="login-fail"></p>
+                <button type="submit" onclick="loginForm()">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
